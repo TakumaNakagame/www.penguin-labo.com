@@ -2,7 +2,16 @@
   <Layout>
     <div class="article">
       <h1>{{ $page.event.title }}</h1>
+      <div class="item-title" v-html="$page.event.date" />
       <div class="content" v-html="$page.event.content" />
+      <!-- <div class="item-title" v-html="$page.event" /> -->
+      <hr>
+      <h2>頒布物</h2>
+      <div v-for=" item in $page.event.item" :key="item.id">
+        <h3 v-bind:id="'item-'+item.id" v-html="item.title" />
+        <img class="item-image" :src="item.image">
+        <div class="item-desc" v-html="item.description" />
+      </div>
     </div>
   </Layout>
 </template>
@@ -23,7 +32,12 @@ export default {
       title
       date (format: "D MMMM, YYYY")
       content
-      image
+      item{
+        id
+        title
+        image
+        description
+      }
     }
   }
 </page-query>

@@ -1,19 +1,12 @@
 ---
 title: 技術書典7
-date: 2018-09-15 07:42:34
-description: "Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet."
-image: "./images/sergei-akulich-457851-unsplash.jpg"
+date: 2019-09-22
+item:
+  - id: prometheus
+    title: PrometheusでKubernetesを監視する本
+    image: ./image/tbf7/prometheus.png
+    description: "Kubernetesがプロダクションで多く使われることになりましたが、その監視について話に上がることは多くありません。特に、Prometheusは日本語の情報が非常に少なく、現在日本語での情報源はオライリーの「入門Prometheus」が最も多いです。しかし、単にPrometheusを始めて見るには少しハードルが高いのもあります。そこで、本書ではPrometheusを使ってKubernetesを監視することに焦点を絞ってご紹介します。"
 slug: tbf7
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-
-Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-
-Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
-
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
+prometheus

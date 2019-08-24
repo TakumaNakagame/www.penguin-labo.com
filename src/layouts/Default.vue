@@ -37,7 +37,7 @@ export default {
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Mali', cursive;
+    /* font-family: 'Mali', cursive; */
   }
 
   h1 {
@@ -49,7 +49,7 @@ export default {
   }
 
   body {
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
     margin: 0;
     font-size: 16px;
     padding: 0;
@@ -61,7 +61,7 @@ export default {
   }
 
   .layout {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
@@ -74,7 +74,7 @@ export default {
 
   .heading {
     margin-bottom: 20px;
-    font-family: 'Mali', cursive;
+    /* font-family: 'Mali', cursive; */
     font-weight: bold;
   }
 </style>

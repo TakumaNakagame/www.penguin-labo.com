@@ -1,19 +1,12 @@
 ---
 title: 技術書典5
-date: 2018-09-15 07:42:34
-description: "Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet."
-image: "./images/sergei-akulich-457851-unsplash.jpg"
+date: 2018-10-08
+item:
+  - id: freenas
+    title: 0から始める！簡単！FreeNAS構築チュートリアル
+    image: ./image/tbf5/freenas.jpg
+    description: "FreeNASをインストールから実際に使用できるまでをまとめました。これで、あなたも夢の自宅NAS生活が迎えられます。また、実際に企業で顧客向けのNASとして構築した経験を生かして、いくつかの管理機能についても掘り下げました。数少ないFreeNAS本の1冊です。"
 slug: tbf5
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-
-Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-
-Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
-
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
+tbf5
