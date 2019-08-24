@@ -5,6 +5,13 @@
         <router-link :to="node.path">
           <h2 v-html="node.title"/>
         </router-link>
+          <ul>
+            <li v-for=" item in node.item" :key="item.id">
+              <router-link :to="node.path + '#' + item.id">
+                <h3 v-html="item.title"/>
+              </router-link>
+            </li>
+          </ul>
       </li>
     </ul>
   </Layout>
@@ -19,6 +26,10 @@
           title
           date (format: "D MMMM, YYYY")
           path
+          item {
+            id
+            title
+          }
         }
       }
     }
