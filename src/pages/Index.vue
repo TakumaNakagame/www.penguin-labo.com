@@ -1,16 +1,6 @@
 <template>
   <Layout class="home">
     <ul>
-      <li v-for="{ node } in $page.allBlogPost.edges" :key="node._id">
-        <router-link :to="node.path">
-          <h2 v-html="node.title"/>
-        </router-link>
-        <span v-html="node.date"/>
-        <div v-html="node.description"/>
-      </li>
-    </ul>
-    <hr>
-    <ul>
       <li v-for="{ node } in $page.allEvent.edges" :key="node._id">
         <router-link :to="node.path">
           <h2 v-html="node.title"/>
@@ -24,17 +14,6 @@
 
 <page-query>
   query Home ($page: Int) {
-    allBlogPost (page: $page) {
-      edges {
-        node {
-          _id
-          title
-          date (format: "D MMMM, YYYY")
-          description
-          path
-        }
-      }
-    },
     allEvent (page: $page) {
       edges {
         node {

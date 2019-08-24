@@ -6,14 +6,6 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'blog/*.md',
-        typeName: 'BlogPost',
-        route: '/:slug'
-      }
-    },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
         path: 'event/*.md',
         typeName: 'Event',
         route: '/event/:slug'
