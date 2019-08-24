@@ -1,6 +1,6 @@
 module.exports = {
-  siteName: `www.lab-dev.net`,
-  titleTemplate: `%s - Gridsome`,
+  siteName: `ぺんぎん工房`,
+  titleTemplate: `%s - ぺんぎん工房`,
 
   plugins: [
     {
