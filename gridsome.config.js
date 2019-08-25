@@ -10,6 +10,12 @@ module.exports = {
         typeName: 'Event',
         route: '/event/:slug'
       }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-125245425-3'
+      }
     }
   ]
 }
