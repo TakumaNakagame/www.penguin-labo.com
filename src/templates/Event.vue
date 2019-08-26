@@ -9,7 +9,7 @@
       <h2>頒布物</h2>
       <div v-for=" item in $page.event.item" :key="item.id">
         <h3 v-bind:id="'item-'+item.id" v-html="item.title" />
-        <img class="item-image" :src="item.image">
+        <g-image class="item-image" :src="item.image" /> 
         <div class="item-desc" v-html="item.description" />
         <!-- <div><a :href="item.trial" target="_blank">お試し版をダウンロードする</a></div>
         <div><a :href="item.purchase" target="_blank">電子版を購入する</a></div> -->
