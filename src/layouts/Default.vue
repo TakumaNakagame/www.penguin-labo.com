@@ -5,6 +5,10 @@
         <component :is="titleTag" class="heading">{{ config.siteName }}</component>
       </g-link>
     </header>
+    <div class="alert alert-primary" role="alert">
+      このサイトは「かめねこ」がナンモワカランなフロントエンドを学びながら作ってます。<br>
+      なので最初は汚いですが、いずれかっこよくなる…はず。
+    </div> 
     <slot/>
   </div>
 </template>
