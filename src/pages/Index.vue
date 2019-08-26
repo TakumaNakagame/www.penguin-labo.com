@@ -8,7 +8,7 @@
           <ul>
             <li v-for=" item in node.item" :key="item.id">
               <router-link :to="node.path + '#' + item.id">
-                <h3 v-html="item.title"/>
+                  <h4 class="event-item" v-html="item.title" />
               </router-link>
             </li>
           </ul>
@@ -66,5 +66,10 @@
   ul li p {
     margin: 0;
     line-height: 1.5;
+  }
+
+  .event-item {
+    color: #696969;
+    margin-left: 20px;
   }
 </style>
