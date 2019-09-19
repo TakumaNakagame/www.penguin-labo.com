@@ -18,6 +18,8 @@
           <a :href="item.ebook" v-html="item.ebook" target="_blank" />
           <h3>お試し版</h3>
           <a :href="item.ebookTrial" v-html="item.ebookTrial" target="_blank" />
+          <h3>取り置き(トリオキニ)</h3>
+          <a :href="item.reserve" v-html="item.reserve" target="_blank" />
         </div>
         <h2 id="event" v-html="$page.event.title" />
         <div class="event_content box">
@@ -61,6 +63,7 @@ export default {
         description
         ebook
         ebookTrial
+        reserve
       }
     }
   }

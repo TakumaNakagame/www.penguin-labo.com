@@ -13,6 +13,7 @@ item:
     本書では、Prometheusに入門すると同時に、Kubernetes上にデプロイするところまでご紹介致します。"
     ebook: https://kameneko.booth.pm/items/1570360
     ebookTrial: https://kameneko.booth.pm/items/1570326
+    reserve: https://triokini.com/item/86822
   # - id: freenas
   #   title: FreeNASチュートリアル応用編本
   #   image: ./image/tbf7/prometheus.png
