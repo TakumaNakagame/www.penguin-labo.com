@@ -34,6 +34,7 @@ export default {
   a {
     color: #4dba87;
     text-decoration: none;
+    word-break: break-all;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -61,8 +62,8 @@ export default {
   }
 
   .layout {
-    max-width: 800px;
     margin: 0 auto;
+    max-width: 800px;
     padding-left: 20px;
     padding-right: 20px;
   }
