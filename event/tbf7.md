@@ -8,8 +8,9 @@ item:
     title: PrometheusでKubernetesを監視する本
     image: ./image/tbf7/prometheus.png
     price: 1,000円
-    description: "Kubernetesがプロダクションで多く使われることになりましたが、その監視について話に上がることは多くありません。特に、Prometheusは日本語の情報が非常に少なく、現在日本語での情報源はオライリーの「入門Prometheus」が最も多いです。<br>
-    しかし、単にPrometheusを始めて見るには少しハードルが高いのもあります。そこで、本書ではPrometheusを使ってKubernetesを監視することに焦点を絞ってご紹介します。"
+    description: "Kubernetesがプロダクション環境で当たり前のように使われるようになりました。アプリケーションをより高速にデプロイできるようになるとともに、従来の監視では、監視がボトルネックとなってきます。<br>
+    Prometheusは、シンプルな構成とその強力なServiceDiscoveryによって自動的にアプリケーションのPodを検知することができます。<br>
+    本書では、Prometheusに入門すると同時に、Kubernetes上にデプロイするところまでご紹介致します。"
     ebook: https://kameneko.booth.pm/items/1570360
     ebookTrial: https://kameneko.booth.pm/items/1570326
   # - id: freenas
