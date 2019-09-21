@@ -14,10 +14,8 @@
           <p v-html="item.price" />
           <h3>本書について</h3>
           <p v-html="item.description" />
-          <h3>電子版</h3>
+          <h3>販売・お試し版</h3>
           <a :href="item.ebook" v-html="item.ebook" target="_blank" />
-          <h3>お試し版</h3>
-          <a :href="item.ebookTrial" v-html="item.ebookTrial" target="_blank" />
           <h3>取り置き(トリオキニ)</h3>
           <a :href="item.reserve" v-html="item.reserve" target="_blank" />
         </div>
@@ -62,7 +60,6 @@ export default {
         price
         description
         ebook
-        ebookTrial
         reserve
       }
     }
