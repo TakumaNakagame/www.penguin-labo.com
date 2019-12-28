@@ -23,6 +23,8 @@
         <div class="event_content box">
           <h3>日時</h3>
           <p v-html="$page.event.date" />
+          <h3>場所</h3>
+          <p v-html="$page.event.location" />
           <h3>イベントページ</h3>   
           <a :href="$page.event.url" v-html="$page.event.url" target="_blank" />
         </div>
